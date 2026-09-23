@@ -335,6 +335,6 @@ def main(page: ft.Page):
             ft.Text(error_msg, selectable=True)
         )
         print(error_msg)
-        
+
 if __name__ == "__main__":
     ft.app(target=main)
