@@ -139,7 +139,6 @@ def main(page: ft.Page):
                     break
             goal_cal_input.value = str(current_cal)
             goal_steps_input.value = str(current_steps)
-            
             goal_dialog.open = True
             page.update()
 
